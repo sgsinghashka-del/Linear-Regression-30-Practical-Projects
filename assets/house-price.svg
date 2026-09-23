@@ -1,0 +1,50 @@
+<svg width="1000" height="700" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#1a2437"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="700" fill="url(#bg)" rx="24"/>
+  <text x="70" y="90" fill="#e2e8f0" font-size="34" font-weight="700" font-family="Arial, Helvetica, sans-serif">House Price Prediction</text>
+  <text x="70" y="122" fill="#7dd3fc" font-size="18" font-family="Arial, Helvetica, sans-serif">Area + Bedrooms + Bathrooms → Price</text>
+
+  <g>
+    <rect x="70" y="170" width="220" height="110" rx="18" fill="#10243d" stroke="#38bdf8"/>
+    <text x="95" y="210" fill="#94a3b8" font-size="16" font-family="Arial, Helvetica, sans-serif">MAE</text>
+    <text x="95" y="245" fill="#f8fafc" font-size="34" font-weight="700" font-family="Arial, Helvetica, sans-serif">5.09</text>
+  </g>
+
+  <g>
+    <rect x="320" y="170" width="220" height="110" rx="18" fill="#10243d" stroke="#34d399"/>
+    <text x="345" y="210" fill="#94a3b8" font-size="16" font-family="Arial, Helvetica, sans-serif">RMSE</text>
+    <text x="345" y="245" fill="#f8fafc" font-size="34" font-weight="700" font-family="Arial, Helvetica, sans-serif">6.84</text>
+  </g>
+
+  <g>
+    <rect x="570" y="170" width="220" height="110" rx="18" fill="#10243d" stroke="#c084fc"/>
+    <text x="595" y="210" fill="#94a3b8" font-size="16" font-family="Arial, Helvetica, sans-serif">R²</text>
+    <text x="595" y="245" fill="#f8fafc" font-size="34" font-weight="700" font-family="Arial, Helvetica, sans-serif">0.98</text>
+  </g>
+
+  <g>
+    <rect x="70" y="320" width="820" height="320" rx="24" fill="#101935" stroke="#334155"/>
+    <path d="M110 560 L200 530 L290 510 L380 470 L470 440 L560 390 L650 325 L760 275 L850 230" stroke="url(#line)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M110 600 L200 570 L290 560 L380 520 L470 490 L560 430 L650 415 L760 360 L850 315" stroke="#f472b6" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+    <g fill="#cbd5e1" font-size="14" font-family="Arial, Helvetica, sans-serif">
+      <text x="100" y="620">800</text>
+      <text x="760" y="620">3600</text>
+    </g>
+    <g fill="#94a3b8" font-size="14" font-family="Arial, Helvetica, sans-serif">
+      <text x="78" y="340">Price</text>
+      <text x="770" y="340">Area</text>
+    </g>
+  </g>
+</svg>
+

@@ -1,0 +1,50 @@
+<svg width="1000" height="700" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#1f1133"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="700" fill="url(#bg)" rx="24"/>
+  <text x="70" y="90" fill="#f8fafc" font-size="34" font-weight="700" font-family="Arial, Helvetica, sans-serif">Salary Prediction</text>
+  <text x="70" y="122" fill="#c4b5fd" font-size="18" font-family="Arial, Helvetica, sans-serif">Experience + Education + Age → Salary</text>
+
+  <g>
+    <rect x="70" y="180" width="240" height="120" rx="18" fill="#121f38" stroke="#38bdf8"/>
+    <text x="95" y="220" fill="#94a3b8" font-size="16" font-family="Arial, Helvetica, sans-serif">Experience</text>
+    <text x="95" y="260" fill="#f8fafc" font-size="34" font-weight="700" font-family="Arial, Helvetica, sans-serif">0.699</text>
+  </g>
+
+  <g>
+    <rect x="350" y="180" width="240" height="120" rx="18" fill="#121f38" stroke="#a78bfa"/>
+    <text x="375" y="220" fill="#94a3b8" font-size="16" font-family="Arial, Helvetica, sans-serif">Education</text>
+    <text x="375" y="260" fill="#f8fafc" font-size="34" font-weight="700" font-family="Arial, Helvetica, sans-serif">-0.076</text>
+  </g>
+
+  <g>
+    <rect x="630" y="180" width="240" height="120" rx="18" fill="#121f38" stroke="#34d399"/>
+    <text x="655" y="220" fill="#94a3b8" font-size="16" font-family="Arial, Helvetica, sans-serif">Age</text>
+    <text x="655" y="260" fill="#f8fafc" font-size="34" font-weight="700" font-family="Arial, Helvetica, sans-serif">0.084</text>
+  </g>
+
+  <g>
+    <rect x="70" y="340" width="820" height="260" rx="24" fill="#121f38" stroke="#334155"/>
+    <path d="M110 548 L220 535 L330 510 L440 470 L550 430 L660 350 L760 270 L850 220" stroke="url(#line)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#cbd5e1" font-size="14" font-family="Arial, Helvetica, sans-serif">
+      <text x="100" y="600">1</text>
+      <text x="330" y="600">10</text>
+      <text x="560" y="600">20</text>
+      <text x="790" y="600">30</text>
+    </g>
+    <g fill="#94a3b8" font-size="14" font-family="Arial, Helvetica, sans-serif">
+      <text x="78" y="348">Income</text>
+      <text x="780" y="348">Experience</text>
+    </g>
+  </g>
+</svg>
+

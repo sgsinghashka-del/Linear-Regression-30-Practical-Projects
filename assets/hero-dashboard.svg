@@ -1,0 +1,81 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="50%" stop-color="#111c3b"/>
+      <stop offset="100%" stop-color="#1b143a"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d2948" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#101a2d" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="line1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="line2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <circle cx="1050" cy="120" r="180" fill="#7c3aed" opacity="0.18"/>
+  <circle cx="220" cy="560" r="210" fill="#06b6d4" opacity="0.12"/>
+
+  <text x="80" y="120" fill="#e2e8f0" font-size="42" font-weight="700" font-family="Arial, Helvetica, sans-serif">Linear Regression</text>
+  <text x="80" y="168" fill="#7dd3fc" font-size="52" font-weight="800" font-family="Arial, Helvetica, sans-serif">30 Practical Projects</text>
+
+  <g>
+    <rect x="80" y="220" width="260" height="120" rx="18" fill="url(#card)" stroke="#3b82f6" stroke-opacity="0.35"/>
+    <text x="105" y="260" fill="#94a3b8" font-size="18" font-family="Arial, Helvetica, sans-serif">Projects</text>
+    <text x="105" y="310" fill="#f8fafc" font-size="44" font-weight="700" font-family="Arial, Helvetica, sans-serif">30</text>
+  </g>
+
+  <g>
+    <rect x="370" y="220" width="260" height="120" rx="18" fill="url(#card)" stroke="#22c55e" stroke-opacity="0.35"/>
+    <text x="395" y="260" fill="#94a3b8" font-size="18" font-family="Arial, Helvetica, sans-serif">Average R²</text>
+    <text x="395" y="310" fill="#f8fafc" font-size="44" font-weight="700" font-family="Arial, Helvetica, sans-serif">0.98</text>
+  </g>
+
+  <g>
+    <rect x="660" y="220" width="260" height="120" rx="18" fill="url(#card)" stroke="#c084fc" stroke-opacity="0.35"/>
+    <text x="685" y="260" fill="#94a3b8" font-size="18" font-family="Arial, Helvetica, sans-serif">Use Cases</text>
+    <text x="685" y="310" fill="#f8fafc" font-size="44" font-weight="700" font-family="Arial, Helvetica, sans-serif">4+</text>
+  </g>
+
+  <g>
+    <rect x="80" y="390" width="840" height="230" rx="22" fill="rgba(15, 23, 42, 0.75)" stroke="#475569" stroke-opacity="0.9"/>
+    <text x="110" y="430" fill="#e2e8f0" font-size="20" font-weight="600" font-family="Arial, Helvetica, sans-serif">Prediction trends</text>
+
+    <path d="M130 540 L230 510 L330 500 L430 468 L530 440 L630 390 L730 330 L820 290" stroke="url(#line1)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M130 560 L230 550 L330 520 L430 500 L530 480 L630 440 L730 415 L820 390" stroke="url(#line2)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g fill="#cbd5e1">
+      <circle cx="130" cy="540" r="5"/>
+      <circle cx="230" cy="510" r="5"/>
+      <circle cx="330" cy="500" r="5"/>
+      <circle cx="430" cy="468" r="5"/>
+      <circle cx="530" cy="440" r="5"/>
+      <circle cx="630" cy="390" r="5"/>
+      <circle cx="730" cy="330" r="5"/>
+      <circle cx="820" cy="290" r="5"/>
+    </g>
+
+    <g fill="#94a3b8" font-size="14" font-family="Arial, Helvetica, sans-serif">
+      <text x="110" y="590">Low</text>
+      <text x="795" y="590">High</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="960" y="220" width="170" height="230" rx="18" fill="url(#card)"/>
+    <text x="990" y="270" fill="#94a3b8" font-size="16" font-family="Arial, Helvetica, sans-serif">Highlights</text>
+    <g fill="#f8fafc" font-size="26" font-weight="700" font-family="Arial, Helvetica, sans-serif">
+      <text x="990" y="320">• Accurate</text>
+      <text x="990" y="360">• Fast</text>
+      <text x="990" y="400">• Clear</text>
+    </g>
+  </g>
+</svg>
+
